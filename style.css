@@ -1,0 +1,177 @@
+*,body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	/*background: linear-gradient(to right ,  #00bf72, #a8eb12,#051937, #004d7a, #008793);*/
+}
+.main{
+	width: 100%;
+	background-image:url(images/bus.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+}
+.logo{
+	color: orange;
+	font-size: 35px;
+	font-family: Arial;
+	padding-left: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+.menu
+{
+	width: 100%;
+	float: left;
+	height: 75px;
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ul li{
+	list-style: none;
+	margin-left: 320px;
+	margin-top: 40px;
+	font-size: 16px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+	color: orange;
+}
+.log_temp{
+	width: 280px;
+	height: 380px;
+	background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+	position: absolute;
+	top: 200px;
+	left: 870px;
+	border-radius: 10px;
+	padding: 25px;
+}
+.log-in h2
+{
+	width: 220px;
+	font-family: sans-serif;
+	text-align: center;
+	color: #ff7200;
+	font-size: 22px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 8px;
+}
+input
+{
+	width: 240px;
+	height: 35px;
+	background : transparent;
+	border-bottom: 1px solid #ff7200;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	font-family: sans-serif;
+}
+input:focus
+{
+	outline: none;
+}
+::placeholder{
+	color: #fff;
+	font-family: arial;
+}
+.btn{
+	width: 220px;
+	height: 40px;
+	background: #ff7200;
+	border : none;
+	margin-top: 30px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	color: #fff;
+	transition: 0.5s ease;
+}
+.btn:hover{
+	background: #fff;
+	color: #ff7200;
+}
+.btn a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+.signup
+{
+	font-size: 22px;
+	color: #fff;
+	position: relative;
+	left:100px;
+}
+/*  -----------------------------------------------------------------------------------------------
+-------------------------------  CSS for Mobile View ------------------------------------------------
+--------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+	*,body{
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+	}
+	.logo h2{
+		margin-top: 40px;
+		font-size: 28px;
+		margin-left: 20px;
+	}
+	.main{
+		background-size: cover;
+		width:100%;
+	}
+	.menu{
+		width: 100%;
+		height: 100%;
+	}
+	ul{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	ul li{
+		list-style: none;
+		margin-left: 40px;
+		margin-top: 60px;
+		font-size: 16px;
+	}
+	.log-in{
+		left: 48px;
+		top: 260px;
+		right: 0px;
+		padding: 20px;
+		bottom: 0px;
+	}
+	input{
+		margin-top: 24px;
+	}
+	.btn{
+		margin-top: 24px;
+	}
+	.log-in h2{
+		margin-top: 28px;
+		margin-left: 12px;
+	}
+}

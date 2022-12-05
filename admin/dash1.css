@@ -1,0 +1,182 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body
+{
+	/*background: linear-gradient(to right , #008793, #00bf72, #a8eb12);*/
+	background: linear-gradient(to right , #bdc3c7, #bdc3c7);
+}
+h1{
+	text-align: center;
+}
+#text_field
+{
+	width: 300px;
+	height: 30px;
+	border-radius: 10px;
+}  
+#sub_btn
+{
+text-align: center; margin-top: 20px; 
+}    	
+
+.menu
+{
+    width: 100%;
+    height: 50px;
+}
+.logo
+{
+	width: 100%;
+	heigth: 100px;
+	text-align: center;
+	position: fixed;
+}
+.logo{
+	color: orange;
+	font-size: 25px;
+	font-family: Arial;
+	padding-left: 20px;
+	float : left;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+a
+{
+	text-decoration: none;
+}
+.content
+{
+
+}
+.pname
+{
+	width: 120px;
+	height: 15px;
+	position: relative;
+	left: 20px;
+	padding-top: 30px;
+}
+.amount
+{
+	width: 80px;
+	height: 15px;
+	position: relative;
+	left: 150px;
+	padding-bottom: 10px;
+}
+.delete_button
+{
+	text-align:center;
+	width: 80px;
+	height: 30px;
+	background: red;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+.edit_button
+{
+	text-align:center;
+	width: 80px;
+	height: 30px;
+	background: green;
+	border-radius: 5px;
+	cursor: pointer;
+	position: relative;
+	left: 50px;
+}
+.info
+{
+	border: solid 1px blue;
+	border-radius: 30px;
+	align-items: center;
+	width: 500px;
+	height: 60px;
+	padding: 10px;
+}
+.add
+{
+	width: 300px;
+	height: 30px;
+	color: green;
+	cursor: pointer;
+}
+.open_book
+{
+	width: 500px;
+	height:100px;
+	color: green;
+	position: relative;
+	left: 200px;
+	background: green;
+	border-radius: 30px;
+	
+}
+.adding
+{
+	position: absolute;
+	left:500px;
+	visibility: hidden;
+}
+.book
+{
+	height: 50px;
+	width: 250px;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: green;
+}
+.table1
+{
+	position: relative;
+	left:200px;
+	display: flex;
+}
+.close
+{
+    position: relative;
+    right: 500px;
+}
+.open
+{
+    position: relative;
+    left: 500px;
+}
+
+/*  -----------------------------------------------------------------------------------------------
+-------------------------------  CSS for Mobile View ------------------------------------------------
+--------------------------------------------------------------------------------------------------*/
+
+
+/*  -----------------------------------------------------------------------------------------------
+-------------------------------  CSS for Dark mode ------------------------------------------------
+--------------------------------------------------------------------------------------------------*/
+@media (prefers-color-scheme: dark)
+{
+body
+{
+	background: black;
+}
+.pname
+{
+	width: 120px;
+	color: azure;
+	height: 15px;
+	position: relative;
+	left: 20px;
+	padding-top: 30px;
+}
+.amount
+{
+	width: 80px;
+	color: azure;
+	height: 15px;
+	position: relative;
+	left: 150px;
+	padding-bottom: 10px;
+}
+}
